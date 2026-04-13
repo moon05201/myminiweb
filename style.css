@@ -1,3 +1,6 @@
+            *{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
             nav{
                 background-color: #9bb375;
             }
@@ -5,6 +8,7 @@
             header{
                 background-color: rgb(231, 231, 173);
                 text-align: center;
+                padding: 10px;
             }
 
             section{
@@ -12,8 +16,9 @@
             }
 
             footer{
-                background-color: rgb(230, 224, 197);
+                background-color: #333;
                 text-align: center;
+                padding: 10px;
             }
 
             article{
@@ -28,6 +33,18 @@
                 color: white;
             }
 
-            *{
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            h2{
+                color:darkolivegreen
+            }
+
+            h4{
+                color:white;
+            }
+
+            .foot-p{
+                color:white;
+            }
+
+            header > p{
+                color:white;
             }
